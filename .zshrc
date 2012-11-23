@@ -44,3 +44,8 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local
 
 # automate reading and writing the history file after each command
 setopt -o sharehistory
+
+# save history
+HISTFILE=~/.histfile
+HISTSIZE=10001111
+SAVEHIST=1000
