@@ -48,4 +48,4 @@ setopt -o sharehistory
 # save history
 HISTFILE=~/.histfile
 HISTSIZE=10001111
-SAVEHIST=1000
+SAVEHIST=100000
