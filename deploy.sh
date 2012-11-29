@@ -22,4 +22,4 @@ echo "Deploying config"
 cp .zshrc ~/.zshrc
 cp .zsh ~/.zsh
 cp .profile ~/.profile
-cp -r .oh-my-zsh ~/.oh-my-zsh
+cp -r .oh-my-zsh ~/
