@@ -18,6 +18,10 @@ then
     mv ~/.profile ~/.profile.bak
 fi
 
+echo "Installing oh-my-zsh"
+git submodule init 
+git submodule update
+
 echo "Deploying config"
 cp .zshrc ~/.zshrc
 cp .zsh ~/.zsh
