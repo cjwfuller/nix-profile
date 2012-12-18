@@ -40,7 +40,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/usr/local/sb
-in:/usr/texbin/
+in
 
 # vi key bindings (commented because ctrl-r doesn't do reverse lookup which I 
 # don't like
