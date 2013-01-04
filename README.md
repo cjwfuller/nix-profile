@@ -7,7 +7,7 @@ Firstly, ensure zsh is installed and your shell is changed to zsh.  On Centos:
 
 <pre>
 yum install zsh
-chsh zsh # enter /bin/zsh when prompted
+chsh <name of user you are installing for> # enter /bin/zsh when prompted
 </pre>
 
 Install nix-profile:
