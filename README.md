@@ -1,9 +1,9 @@
 nix-profile
 ===========
 
-Profile tested on Centos 6.3 and Mac OS 10.8.2 with Iterm2
+Profile tested on CentOS 6.3-4 and Mac OS 10.8.2-3 with *Iterm2*.  Profile will not look right without iTerm2.
 
-Firstly, ensure zsh is installed and your shell is changed to zsh.  On Centos:
+Firstly, ensure zsh is installed and your shell is changed to zsh.  On CentOS:
 
 <pre>
 yum install zsh
