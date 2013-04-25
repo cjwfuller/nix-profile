@@ -19,11 +19,10 @@ then
 fi
 
 echo "Installing oh-my-zsh"
-git submodule init 
-git submodule update
+git submodule add https://github.com/cjwfuller/oh-my-zsh.git
 
 echo "Deploying config"
 cp .zshrc ~/.zshrc
 cp .zsh ~/.zsh
 cp .profile ~/.profile
-cp -r .oh-my-zsh/ ~/.oh-my-zsh
+cp -r oh-my-zsh/ ~/.oh-my-zsh
