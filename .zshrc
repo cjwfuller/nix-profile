@@ -61,4 +61,6 @@ SAVEHIST=100000
 # Extended globbing so you can do things like ls foo.*
 setopt extended_glob
 
+alias grepp="grep --include '*.php'"
+
 eval "$(hub alias -s)"
