@@ -46,8 +46,8 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/usr/local/sbin
 
-# vi key bindings (commented because ctrl-r doesn't do reverse lookup which I 
-# don't like
+# vi key bindings (commented because ctrl-r doesn't do reverse lookup which I
+# don't like)
 # bindkey -v
 
 # automate reading and writing the history file after each command
