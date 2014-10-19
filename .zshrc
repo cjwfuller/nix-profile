@@ -62,5 +62,3 @@ SAVEHIST=100000
 setopt extended_glob
 
 alias grepp="grep --include '*.php'"
-
-eval "$(hub alias -s)"
