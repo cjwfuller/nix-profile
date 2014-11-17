@@ -61,5 +61,6 @@ SAVEHIST=100000
 # Extended globbing so you can do things like ls foo.*
 setopt extended_glob
 
+alias sudo='nocorrect sudo'
 alias grepp="grep --include '*.php'"
 alias grep="grep --color=always"
