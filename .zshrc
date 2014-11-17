@@ -62,3 +62,4 @@ SAVEHIST=100000
 setopt extended_glob
 
 alias grepp="grep --include '*.php'"
+alias grep="grep --color=always"
