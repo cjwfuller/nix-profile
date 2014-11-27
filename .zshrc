@@ -63,3 +63,4 @@ setopt extended_glob
 
 alias sudo='nocorrect sudo'
 alias grepp="grep --include '*.php'"
+alias p='phpunit'
