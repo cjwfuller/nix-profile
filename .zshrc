@@ -62,5 +62,6 @@ SAVEHIST=100000
 setopt extended_glob
 
 alias sudo='nocorrect sudo'
+alias grep="grep --color=always"
 alias grepp="grep --include '*.php'"
 alias p='phpunit'
