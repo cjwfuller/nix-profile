@@ -6,6 +6,8 @@ alias vagrant='vagrant'
 
 alias gs='git status'
 
+alias vim='/usr/local/Cellar/vim/7.4.161/bin/vim'
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -63,4 +65,8 @@ setopt extended_glob
 
 alias sudo='nocorrect sudo'
 alias grepp="grep --include '*.php'"
+<<<<<<< HEAD
 alias p='phpunit'
+=======
+alias grep="grep --color=always"
+>>>>>>> 40a5d29... always use grep colours
