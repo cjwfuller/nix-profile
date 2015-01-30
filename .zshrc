@@ -48,6 +48,8 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/usr/local/sbin
 
+export GIT_EDITOR=/usr/bin/vim
+
 # vi key bindings (commented because ctrl-r doesn't do reverse lookup which I
 # don't like)
 # bindkey -v
@@ -64,6 +66,7 @@ SAVEHIST=100000
 setopt extended_glob
 
 alias sudo='nocorrect sudo'
+alias grep="grep --color=always"
 alias grepp="grep --include '*.php'"
 <<<<<<< HEAD
 alias p='phpunit'
