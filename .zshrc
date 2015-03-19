@@ -68,8 +68,4 @@ setopt extended_glob
 alias sudo='nocorrect sudo'
 alias grep="grep --color=always"
 alias grepp="grep --include '*.php'"
-<<<<<<< HEAD
 alias p='phpunit'
-=======
-alias grep="grep --color=always"
->>>>>>> 40a5d29... always use grep colours
