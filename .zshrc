@@ -46,7 +46,7 @@ plugins=(git git-flow-completion)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/usr/local/sbin
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/usr/local/sbin:/usr/local/php5/bin
 
 export GIT_EDITOR=/usr/bin/vim
 
