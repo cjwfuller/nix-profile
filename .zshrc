@@ -6,11 +6,13 @@ alias vagrant='vagrant'
 
 alias gs='git status'
 
+alias vim='/usr/local/Cellar/vim/7.4.161/bin/vim'
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="sunrise"
+ZSH_THEME="terminalparty"
 
 DEFAULT_USER='cjwfuller'
 
@@ -44,10 +46,12 @@ plugins=(git git-flow-completion)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/usr/local/sbin
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/usr/local/sbin:/usr/local/php5/bin
 
-# vi key bindings (commented because ctrl-r doesn't do reverse lookup which I 
-# don't like
+export GIT_EDITOR=/usr/bin/vim
+
+# vi key bindings (commented because ctrl-r doesn't do reverse lookup which I
+# don't like)
 # bindkey -v
 
 # automate reading and writing the history file after each command
@@ -72,3 +76,8 @@ fancy-ctrl-z () {
 }
 zle -N fancy-ctrl-z
 bindkey '^Z' fancy-ctrl-z
+
+alias sudo='nocorrect sudo'
+alias grep="grep --color=always"
+alias grepp="grep --include '*.php'"
+alias p='phpunit'
