@@ -60,3 +60,15 @@ SAVEHIST=100000
 
 # Extended globbing so you can do things like ls foo.*
 setopt extended_glob
+
+fancy-ctrl-z () {
+	if [[ $#BUFFER -eq 0 ]]; then
+		BUFFER="fg"
+		zle accept-line
+	else
+		zle push-input
+		zle clear-screen
+	fi
+}
+zle -N fancy-ctrl-z
+bindkey '^Z' fancy-ctrl-z
