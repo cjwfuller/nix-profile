@@ -8,6 +8,8 @@ alias gs='git status'
 
 alias vim='/usr/local/Cellar/vim/7.4.161/bin/vim'
 
+alias v='/usr/local/Cellar/vim/7.4.161/bin/vim'
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
